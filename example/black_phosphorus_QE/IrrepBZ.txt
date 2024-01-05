@@ -1,0 +1,93 @@
+Original cell is primitive
+Number of atoms is  4 ;    P     4
+
+Primitive basis vectors (cart. coord. in Ang):
+    4.626417    0.000000    0.000000
+    0.000000    3.302929    0.000000
+    0.000000    0.000000   20.383800
+Reciprocal basis vectors (cart. coord. in 1/Ang):
+    1.358110    0.000000    0.000000
+    0.000000    1.902307    0.000000
+    0.000000    0.000000    0.308244
+
+Atomic positions (cryst. coord.):
+P       0.588765    0.000000    0.448262
+P       0.411235    0.000000    0.551738
+P       0.088765    0.500000    0.551738
+P       0.911235    0.500000    0.448262
+Atomic positions (cart. coord. in Ang):
+P       2.723872    0.000000    9.137287
+P       1.902545    0.000000   11.246513
+P       0.410664    1.651465   11.246513
+P       4.215754    1.651465    9.137287
+
+The crystal system of the structure is: Orthorhombic
+The isogonal point group of the space group: D2h
+Order of isogonal point group:  8
+Number of conjugate class:  8
+
+The representative operations of space group in each conjugate class:
+numbers in parenthesis label the corresponding group elements
+first 3 columns: rotational matrix (active sense in cryst. coord.)
+the 4 column: rotational axis (right-hand rule in cryst. coord.)
+the 5 column: associated fractional translation (cryst. coord.)
+E ( 1- 1):
+  1  0  0    0   0.000 |
+  0  1  0    0   0.000 |
+  0  0  1    0   0.000 |
+C2( 2- 2):
+ -1  0  0    0   0.500 |
+  0 -1  0    0   0.500 |
+  0  0  1    1   0.000 |
+C2( 3- 3):
+ -1  0  0    0   0.000 |
+  0  1  0    1   0.000 |
+  0  0 -1    0   0.000 |
+C2( 4- 4):
+  1  0  0    1   0.500 |
+  0 -1  0    0   0.500 |
+  0  0 -1    0   0.000 |
+I ( 5- 5):
+ -1  0  0    0   0.000 |
+  0 -1  0    0   0.000 |
+  0  0 -1    0   0.000 |
+m ( 6- 6):
+ -1  0  0    1   0.500 |
+  0  1  0    0   0.500 |
+  0  0  1    0   0.000 |
+m ( 7- 7):
+  1  0  0    0   0.000 |
+  0 -1  0    1   0.000 |
+  0  0  1    0   0.000 |
+m ( 8- 8):
+  1  0  0    0   0.500 |
+  0  1  0    0   0.500 |
+  0  0 -1    1   0.000 |
+
+The SU2 matrix representations in Pauli gauge: SU2(R) = SU2(IR)
+The factor system due to spinor in the projective representation is determined by these matrices
+E ( 1- 1):
+( 1.000, 0.000) ( 0.000, 0.000) | 
+( 0.000, 0.000) ( 1.000, 0.000) | 
+C2( 2- 2):
+( 0.000,-1.000) ( 0.000, 0.000) | 
+( 0.000, 0.000) ( 0.000, 1.000) | 
+C2( 3- 3):
+( 0.000, 0.000) (-1.000, 0.000) | 
+( 1.000, 0.000) ( 0.000, 0.000) | 
+C2( 4- 4):
+( 0.000, 0.000) ( 0.000,-1.000) | 
+( 0.000,-1.000) ( 0.000, 0.000) | 
+I ( 5- 5):
+( 1.000, 0.000) ( 0.000, 0.000) | 
+( 0.000, 0.000) ( 1.000, 0.000) | 
+m ( 6- 6):
+( 0.000, 0.000) ( 0.000,-1.000) | 
+( 0.000,-1.000) ( 0.000, 0.000) | 
+m ( 7- 7):
+( 0.000, 0.000) (-1.000, 0.000) | 
+( 1.000, 0.000) ( 0.000, 0.000) | 
+m ( 8- 8):
+( 0.000,-1.000) ( 0.000, 0.000) | 
+( 0.000, 0.000) ( 0.000, 1.000) | 
+

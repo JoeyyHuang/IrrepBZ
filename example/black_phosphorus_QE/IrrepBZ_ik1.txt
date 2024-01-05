@@ -1,0 +1,151 @@
+Number of k points:  3
+This is the 1st k-point (cryst. coord.):   0.00000   0.00000   0.00000
+The little co-group at k-point: D2h
+Order of little co-group:  8
+Number of conjugate class:  8
+
+The representative operations of little group in each conjugate class:
+numbers in square bracket indicate the labels of elements in space group
+E [ 1]:
+  1  0  0    0   0.000 |
+  0  1  0    0   0.000 |
+  0  0  1    0   0.000 |
+C2[ 2]:
+ -1  0  0    0   0.500 |
+  0 -1  0    0   0.500 |
+  0  0  1    1   0.000 |
+C2[ 3]:
+ -1  0  0    0   0.000 |
+  0  1  0    1   0.000 |
+  0  0 -1    0   0.000 |
+C2[ 4]:
+  1  0  0    1   0.500 |
+  0 -1  0    0   0.500 |
+  0  0 -1    0   0.000 |
+I [ 5]:
+ -1  0  0    0   0.000 |
+  0 -1  0    0   0.000 |
+  0  0 -1    0   0.000 |
+m [ 6]:
+ -1  0  0    1   0.500 |
+  0  1  0    0   0.500 |
+  0  0  1    0   0.000 |
+m [ 7]:
+  1  0  0    0   0.000 |
+  0 -1  0    1   0.000 |
+  0  0  1    0   0.000 |
+m [ 8]:
+  1  0  0    0   0.500 |
+  0  1  0    0   0.500 |
+  0  0 -1    1   0.000 |
+
+====================================================================================================
+
+   <<  Scenario Without Considering SOC  >>
+On-the-fly generate the small Reps of the little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+TRS indicates the additional degeneracy from time-reversal symmetry by study the reality of the Irrep,
+"none" means no additional degeneracy
+"double" means the additional degenerate level has the same Irrep
+"#M + #N" means the additional degenerate level has the N-th Irrep
+
+Number of Irreps of the little group:  8
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1     Dim: 1     TRS: none     
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+
+# 2     Dim: 1     TRS: none     
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) 
+
+# 3     Dim: 1     TRS: none     
+( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) 
+
+# 4     Dim: 1     TRS: none     
+( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) 
+
+# 5     Dim: 1     TRS: none     
+( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) 
+
+# 6     Dim: 1     TRS: none     
+( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) 
+
+# 7     Dim: 1     TRS: none     
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) 
+
+# 8     Dim: 1     TRS: none     
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+
+Alternatively, take the anti-unitary time-reversal T as one group element,
+so the combination operation TR, where reversal operation R satisfies Rk = -k, is also one symmetry operation belonging to an extended little group.
+Thus, the Irreps of original unitary little group, when time-reversal symmetry holds, can be obtained by the small Reps of the extended little group.
+For current k-point, there are  8 reversal operations: E [ 1], C2[ 2], C2[ 3], C2[ 4], I [ 5], m [ 6], m [ 7], m [ 8]
+
+On-the-fly generate the small Reps of the extended little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+
+Number of Irreps of the little group :  8
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1*     Dim: 1
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+
+# 2*     Dim: 1
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) 
+
+# 3*     Dim: 1
+( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) 
+
+# 4*     Dim: 1
+( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) 
+
+# 5*     Dim: 1
+( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) 
+
+# 6*     Dim: 1
+( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) 
+
+# 7*     Dim: 1
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) 
+
+# 8*     Dim: 1
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+
+====================================================================================================
+
+   <<  Scenario With Considering SOC  >>
+On-the-fly generate the small Reps of the little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+TRS indicates the additional degeneracy from time-reversal symmetry by study the reality of the Irrep,
+"none" means no additional degeneracy
+"double" means the additional degenerate level has the same Irrep
+"#M + #N" means the additional degenerate level has the N-th Irrep
+
+Number of Irreps of the little group:  2
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1     Dim: 2     TRS: none     
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+# 2     Dim: 2     TRS: none     
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+Alternatively, take the anti-unitary time-reversal T as one group element,
+so the combination operation TR, where reversal operation R satisfies Rk = -k, is also one symmetry operation belonging to an extended little group.
+Thus, the Irreps of original unitary little group, when time-reversal symmetry holds, can be obtained by the small Reps of the extended little group.
+For current k-point, there are  8 reversal operations: E [ 1], C2[ 2], C2[ 3], C2[ 4], I [ 5], m [ 6], m [ 7], m [ 8]
+
+On-the-fly generate the small Reps of the extended little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+
+Number of Irreps of the little group :  2
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+# 2*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+====================================================================================================
+
