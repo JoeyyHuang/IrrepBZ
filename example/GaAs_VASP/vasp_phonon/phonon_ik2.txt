@@ -1,0 +1,129 @@
+Number of q points:  5
+Number of phonon modes at each q point:  6
+
+The 2nd q-point (cryst. coord.):   0.25000   0.25000   0.25000
+The little co-group at q-point: C3v
+Order of little co-group:  6
+Number of conjugate class:  3
+
+The representative operations of little group in each conjugate class:
+numbers in square bracket indicate the labels of elements in space group
+E [ 1]:
+  1  0  0    0   0.000 |
+  0  1  0    0   0.000 |
+  0  0  1    0   0.000 |
+C3[11,12]:
+  0  0  1    1   0.000 |  0  1  0   -1   0.000 |
+  1  0  0    1   0.000 |  0  0  1   -1   0.000 |
+  0  1  0    1   0.000 |  1  0  0   -1   0.000 |
+m [16,17,18]:
+  0  0  1   -1   0.000 |  0  1  0    1   0.000 |  1  0  0    0   0.000 |
+  0  1  0    0   0.000 |  1  0  0   -1   0.000 |  0  0  1    1   0.000 |
+  1  0  0    1   0.000 |  0  0  1    0   0.000 |  0  1  0   -1   0.000 |
+
+====================================================================================================
+
+   <<  Scenario Without Considering SOC  >>
+On-the-fly generate the small Reps by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+TRS indicates the additional degeneracy from time-reversal symmetry by study the reality of the Irrep,
+"none" means no additional degeneracy
+"double" means the additional degenerate level has the same Irrep
+"#M + #N" means the additional degenerate level has the N-th Irrep
+
+Number of Irreps of the little group:  3
+     E [ 1]          C3[11]          C3[12]          m [16]          m [17]          m [18]     
+# 1     Dim: 1     TRS: none     
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+
+# 2     Dim: 1     TRS: none     
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) 
+
+# 3     Dim: 2     TRS: none     
+( 2.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+Alternatively, take the anti-unitary time-reversal T as one group element,
+so the combination operation TR, where reversal operation R satisfies Rk = -k, is also one symmetry operation belonging to an extended little group.
+Thus, the Irreps of original unitary little group, when time-reversal symmetry holds, can be obtained by the small Reps of the extended little group.
+For current k-point, there is no reversal operation and the extended little group is exactly the original unitary little group
+
+On-the-fly generate the small Reps by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+
+Number of Irreps of the little group :  3
+     E [ 1]          C3[11]          C3[12]          m [16]          m [17]          m [18]     
+# 1*     Dim: 1
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+
+# 2*     Dim: 1
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) 
+
+# 3*     Dim: 2
+( 2.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+====================================================================================================
+
+   <<  Scenario With Considering SOC  >>
+On-the-fly generate the small Reps by diagonalizing a random Hermite matrix
+Diagonalization failed
+Now it is retrying with one other random Hermite matrix...
+On-the-fly generate the small Reps by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+TRS indicates the additional degeneracy from time-reversal symmetry by study the reality of the Irrep,
+"none" means no additional degeneracy
+"double" means the additional degenerate level has the same Irrep
+"#M + #N" means the additional degenerate level has the N-th Irrep
+
+Number of Irreps of the little group:  3
+     E [ 1]          C3[11]          C3[12]          m [16]          m [17]          m [18]     
+# 1     Dim: 1     TRS: none     
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000, 1.000) ( 0.000, 1.000) ( 0.000, 1.000) 
+
+# 2     Dim: 1     TRS: none     
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000,-1.000) ( 0.000,-1.000) ( 0.000,-1.000) 
+
+# 3     Dim: 2     TRS: none     
+( 2.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+Alternatively, take the anti-unitary time-reversal T as one group element,
+so the combination operation TR, where reversal operation R satisfies Rk = -k, is also one symmetry operation belonging to an extended little group.
+Thus, the Irreps of original unitary little group, when time-reversal symmetry holds, can be obtained by the small Reps of the extended little group.
+For current k-point, there is no reversal operation and the extended little group is exactly the original unitary little group
+
+On-the-fly generate the small Reps by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+
+Number of Irreps of the little group :  3
+     E [ 1]          C3[11]          C3[12]          m [16]          m [17]          m [18]     
+# 1*     Dim: 1
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000, 1.000) ( 0.000, 1.000) ( 0.000, 1.000) 
+
+# 2*     Dim: 1
+( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000,-1.000) ( 0.000,-1.000) ( 0.000,-1.000) 
+
+# 3*     Dim: 2
+( 2.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+====================================================================================================
+
+   <<  Irreps of Phonon Modes  >>
+Determine the Irrep by comparing the mode characters with the small Reps of the little group in "Scenario Without Considering SOC"
+For lattice dynamical equation, the time-reversal symmetry is intrinsically holded
+
+Characters of phonon modes associated with each symmetry opeartion
+     E [ 1]          C3[11]          C3[12]          m [16]          m [17]          m [18]     
+modes:   1   2     Irrep: # 3*
+( 2.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+modes:   3     Irrep: # 1*
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+modes:   4   5     Irrep: # 3*
+( 2.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+modes:   6     Irrep: # 1*
+( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) 
+
+====================================================================================================
+
