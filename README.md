@@ -1,3 +1,4 @@
+# IrrepBZ
 IrrepBZ program on-the-fly generates the irreducible representations (Irreps) of wavevector group, also known as the small representations of little group, at any given points of the Brillouin zone (BZ).
 
 Functionality: 
@@ -13,3 +14,11 @@ Beware:
 * In the scf.in file, only the tags of ibrav, celldm, nat, and ntyp are allowed to be present in the SYSTEM namelist.
 * If the scf.in file exists, it is optional for the 'k-points-list' file, 'qe_band' folder, and 'qe_phonon' folder to exist. They can all exist together, none of them can exist, or they can exist in any combination. The same rule applies to the 'k-points-list' file, 'vasp_band' folder, and 'vasp_phonon' folder in the case of the POSCAR file.
 * Regarding the 'vasp_phonon' folder, the q-points can be specified either in a band format or as discrete q-points in the Phonopy implementation. These correspond respectively to the resulting files of 'band.yaml' and 'qpoints.yaml'. Therefore, only one of these files is required and they cannot coexist together.
+
+# Installation
+go to the IrrepBZ directory and just type:
+make
+If the source files in src have been modified, first make clean, then make
+
+# Contributors
+- Jianqi Huang (Institute of Metal Research, Chinese Academy of Sciences, China)
