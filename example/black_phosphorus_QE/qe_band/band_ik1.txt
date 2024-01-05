@@ -1,0 +1,171 @@
+The electronic bands are calculated with considering SOC
+Number of k points:  5
+Number of electronic bands at each k point: 20
+
+This is the 1st k-point (cryst. coord.):   0.50000   0.50000   0.00000
+The little co-group at k-point: D2h
+Order of little co-group:  8
+Number of conjugate class:  8
+
+The representative operations of little group in each conjugate class:
+numbers in square bracket indicate the labels of elements in space group
+E [ 1]:
+  1  0  0    0   0.000 |
+  0  1  0    0   0.000 |
+  0  0  1    0   0.000 |
+C2[ 2]:
+ -1  0  0    0   0.500 |
+  0 -1  0    0   0.500 |
+  0  0  1    1   0.000 |
+C2[ 3]:
+ -1  0  0    0   0.000 |
+  0  1  0    1   0.000 |
+  0  0 -1    0   0.000 |
+C2[ 4]:
+  1  0  0    1   0.500 |
+  0 -1  0    0   0.500 |
+  0  0 -1    0   0.000 |
+I [ 5]:
+ -1  0  0    0   0.000 |
+  0 -1  0    0   0.000 |
+  0  0 -1    0   0.000 |
+m [ 6]:
+ -1  0  0    1   0.500 |
+  0  1  0    0   0.500 |
+  0  0  1    0   0.000 |
+m [ 7]:
+  1  0  0    0   0.000 |
+  0 -1  0    1   0.000 |
+  0  0  1    0   0.000 |
+m [ 8]:
+  1  0  0    0   0.500 |
+  0  1  0    0   0.500 |
+  0  0 -1    1   0.000 |
+
+====================================================================================================
+
+   <<  Scenario Without Considering SOC  >>
+On-the-fly generate the small Reps of the little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+TRS indicates the additional degeneracy from time-reversal symmetry by study the reality of the Irrep,
+"none" means no additional degeneracy
+"double" means the additional degenerate level has the same Irrep
+"#M + #N" means the additional degenerate level has the N-th Irrep
+
+Number of Irreps of the little group:  2
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1     Dim: 2     TRS: none     
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+# 2     Dim: 2     TRS: none     
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+Alternatively, take the anti-unitary time-reversal T as one group element,
+so the combination operation TR, where reversal operation R satisfies Rk = -k, is also one symmetry operation belonging to an extended little group.
+Thus, the Irreps of original unitary little group, when time-reversal symmetry holds, can be obtained by the small Reps of the extended little group.
+For current k-point, there are  8 reversal operations: E [ 1], C2[ 2], C2[ 3], C2[ 4], I [ 5], m [ 6], m [ 7], m [ 8]
+
+On-the-fly generate the small Reps of the extended little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+
+Number of Irreps of the little group :  2
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+# 2*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+====================================================================================================
+
+   <<  Scenario With Considering SOC  >>
+On-the-fly generate the small Reps of the little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+TRS indicates the additional degeneracy from time-reversal symmetry by study the reality of the Irrep,
+"none" means no additional degeneracy
+"double" means the additional degenerate level has the same Irrep
+"#M + #N" means the additional degenerate level has the N-th Irrep
+
+Number of Irreps of the little group:  8
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1     Dim: 1     TRS: #1 + #8  
+( 1.000, 0.000) ( 0.000, 1.000) ( 0.000, 1.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 0.000, 1.000) ( 0.000, 1.000) 
+
+# 2     Dim: 1     TRS: #2 + #3  
+( 1.000, 0.000) ( 0.000, 1.000) ( 0.000,-1.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 0.000,-1.000) ( 0.000, 1.000) 
+
+# 3     Dim: 1     TRS: #3 + #2  
+( 1.000, 0.000) ( 0.000,-1.000) ( 0.000, 1.000) (-1.000, 0.000) ( 1.000, 0.000) (-1.000, 0.000) ( 0.000, 1.000) ( 0.000,-1.000) 
+
+# 4     Dim: 1     TRS: #4 + #7  
+( 1.000, 0.000) ( 0.000, 1.000) ( 0.000,-1.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 0.000, 1.000) ( 0.000,-1.000) 
+
+# 5     Dim: 1     TRS: #5 + #6  
+( 1.000, 0.000) ( 0.000,-1.000) ( 0.000,-1.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000, 1.000) ( 0.000, 1.000) 
+
+# 6     Dim: 1     TRS: #6 + #5  
+( 1.000, 0.000) ( 0.000, 1.000) ( 0.000, 1.000) ( 1.000, 0.000) (-1.000, 0.000) (-1.000, 0.000) ( 0.000,-1.000) ( 0.000,-1.000) 
+
+# 7     Dim: 1     TRS: #7 + #4  
+( 1.000, 0.000) ( 0.000,-1.000) ( 0.000, 1.000) (-1.000, 0.000) (-1.000, 0.000) ( 1.000, 0.000) ( 0.000,-1.000) ( 0.000, 1.000) 
+
+# 8     Dim: 1     TRS: #8 + #1  
+( 1.000, 0.000) ( 0.000,-1.000) ( 0.000,-1.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 1.000, 0.000) ( 0.000,-1.000) ( 0.000,-1.000) 
+
+Alternatively, take the anti-unitary time-reversal T as one group element,
+so the combination operation TR, where reversal operation R satisfies Rk = -k, is also one symmetry operation belonging to an extended little group.
+Thus, the Irreps of original unitary little group, when time-reversal symmetry holds, can be obtained by the small Reps of the extended little group.
+For current k-point, there are  8 reversal operations: E [ 1], C2[ 2], C2[ 3], C2[ 4], I [ 5], m [ 6], m [ 7], m [ 8]
+
+On-the-fly generate the small Reps of the extended little group by diagonalizing a random Hermite matrix
+Diagonalization succeeded
+Dim denotes the dimensionality of the Irrep
+
+Number of Irreps of the little group :  4
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+# 1*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) ( 2.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+# 2*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+# 3*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) ( 2.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+# 4*     Dim: 2
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+====================================================================================================
+
+   <<  Irreps of Electronic Bands  >>
+Determine the Irrep by comparing the band characters with the small Reps of the little group in "Scenario With Considering SOC"
+For electronic Hamiltonian equation, the time-reversal symmetry is intrinsically holded
+
+Characters of electronic bands associated with each symmetry opeartion
+     E [ 1]          C2[ 2]          C2[ 3]          C2[ 4]          I [ 5]          m [ 6]          m [ 7]          m [ 8]     
+bands:   1   2     Irrep: # 4*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:   3   4     Irrep: # 2*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:   5   6     Irrep: # 3*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) ( 2.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:   7   8     Irrep: # 1*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) ( 2.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:   9  10     Irrep: # 2*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:  11  12     Irrep: # 4*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:  13  14     Irrep: # 1*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) ( 2.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:  15  16     Irrep: # 3*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) ( 2.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:  17  18     Irrep: # 4*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+bands:  19  20     Irrep: # 2*
+( 2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) ( 2.000, 0.000) (-2.000, 0.000) (-2.000, 0.000) ( 0.000, 0.000) ( 0.000, 0.000) 
+
+====================================================================================================
+
