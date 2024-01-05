@@ -19,7 +19,7 @@ Beware:
 go to the IrrepBZ directory and just type:
 make
 
-If the source files in src have been modified, first make clean, then make
+If the source files in src have been modified, first "make clean", then "make"
 
 # Contributors
 - Jianqi Huang (Institute of Metal Research, Chinese Academy of Sciences, China)
