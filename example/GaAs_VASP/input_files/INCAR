@@ -1,0 +1,13 @@
+SYSTEM = GaAs
+PREC = Accurate
+ALGO = Normal
+ISTART = 0
+ICHARG = 2
+ENCUT = 500
+
+NELM = 100
+EDIFF = 1.E-8
+ISMEAR = -5
+
+LCHARG = T
+LWAVE = T
