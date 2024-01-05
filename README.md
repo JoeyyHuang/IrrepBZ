@@ -16,6 +16,7 @@ Beware:
 * Regarding the 'vasp_phonon' folder, the q-points can be specified either in a band format or as discrete q-points in the Phonopy implementation. These correspond respectively to the resulting files of 'band.yaml' and 'qpoints.yaml'. Therefore, only one of these files is required and they cannot coexist together.
 
 # Installation
+What is solely needed is a Fortran compiler with default gfortran. No third-party dependency is needed.
 go to the IrrepBZ directory and just type:
 make
 
