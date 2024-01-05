@@ -18,8 +18,7 @@ Beware:
 # Installation
 What is solely needed is a Fortran compiler with default gfortran. No third-party dependency is needed.
 
-go to the IrrepBZ directory and just type:
-make
+Go to the IrrepBZ directory and just type "make", the executable called IrrepBZ will be generated under this direcroty.
 
 If the source files in src have been modified, first "make clean", then "make"
 
