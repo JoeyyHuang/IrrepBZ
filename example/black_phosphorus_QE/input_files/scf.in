@@ -1,0 +1,27 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'P'
+  verbosity = 'high'
+  tstress = .true., tprnfor = .true.
+  pseudo_dir = './'
+/
+&SYSTEM
+  ibrav = 8
+  celldm(1) = 8.7426616208, celldm(2) = 0.7139280607, celldm(3) = 4.4059579406
+  nat = 4, ntyp = 1
+  ecutwfc = 120
+  occupations = 'fixed'
+  noncolin = .true., lspinorb = .true.
+/
+&ELECTRONS
+  conv_thr = 1.d-13
+/
+ATOMIC_SPECIES
+  P  30.973  P.upf
+ATOMIC_POSITIONS {crystal}
+  P  0.5887649097  0.0000000000  0.4482622124
+  P  0.4112350903  0.0000000000  0.5517377876
+  P  0.0887649097  0.5000000000  0.5517377876
+  P  0.9112350903  0.5000000000  0.4482622124
+K_POINTS {automatic}
+  12  16  1  0  0  0
